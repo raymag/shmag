@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 const yup = require('yup');
 const monk = require('monk');
+const cors = require('cors');
 const { nanoid } = require('nanoid');
 
 require('dotenv').config();
@@ -15,6 +16,7 @@ urls.createIndex({ slug: 1 }, { unique: true });
 const app = express();
 app.enable('trust proxy');
 
+app.use(cors());
 app.use(helmet());
 app.use(morgan('common'));
 app.use(express.json())

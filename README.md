@@ -1,0 +1,2 @@
+# rmag
+Simple link shortner

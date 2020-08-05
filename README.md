@@ -1,2 +1,2 @@
-# rmag
+# SHMAG
 Simple link shortner

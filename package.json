@@ -1,8 +1,8 @@
 {
-  "name": "rmag",
+  "name": "shmag",
   "version": "1.0.0",
   "main": "server.ts",
-  "repository": "https://github.com/raymag/rmag",
+  "repository": "https://github.com/raymag/shmag",
   "author": "raymag <prayk11@outlook.com>",
   "license": "MIT",
   "scripts": {

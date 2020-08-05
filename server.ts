@@ -51,7 +51,7 @@ app.post('/url', async (req, res, next) => {
     let { slug, url } = req.body;
     try {
         await schema.validate({slug, url});
-        if ( url.includes('rmag.tk') ) {
+        if ( url.includes('shmag.') ) {
             throw new Error('Don\'t.');
         }
         if (!slug) {

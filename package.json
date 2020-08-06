@@ -19,11 +19,11 @@
     "monk": "^7.3.1",
     "morgan": "^1.10.0",
     "nanoid": "^3.1.12",
-    "yup": "^0.29.3"
+    "yup": "^0.29.3",
+    "ts-node": "^8.10.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
-    "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   }
 }
